@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import re
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
